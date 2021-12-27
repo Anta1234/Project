@@ -9,5 +9,5 @@ function CardImage(props) {
     </div>
   );
 }
-
+//props.island.image
 export default CardImage;
