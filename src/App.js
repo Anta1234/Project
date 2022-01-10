@@ -10,10 +10,11 @@ function App() {
     <div>
       <div className="container">
         <h1 className="section-title">BlackPink Cafe</h1>
+        <img src="https://thumbs.gfycat.com/EthicalGreenAfricanaugurbuzzard-max-1mb.gif" />
       </div>
 
       <div className="container">
-        <h2 className="section-title">Islands</h2>
+        <h2 className="section-title">Menue</h2>
         <ul className="cards">
           {data.islands.map((island) => {
             return <Card island={island} />;
